@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- #region Tltle / metas ---------------------------------------->
+  <title>Agent Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="../../images/home-ico.png">
+  <!-- #endregion -->
+
+  <!-- #region Bootstrap & jQuery ------------------------------------------------------------------->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- #endregion -->
+
+  <!-- #region Google Font Imports --------------------------------------------------------------->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <!-- #endregion -->
+
+  <!-- #region add css files ---------------------------------------------------->
+  <link rel="stylesheet" type="text/css" href="../../css files/home-css/home.css">
+  <!-- #endregion -->
+
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#myPage">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#listings">LISTINGS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+  <h1>Justin Friesen</h1>
+  <p>Block One Real Estate</p>
+</div>
+
+<!--  #region Container (About Section) -->
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="../../images/agent/j-man.jpg" id="jman">
+    </div>
+    <div class="col-sm-8">
+      <h2>About Me</h2><br>
+      <h4 style="color: rgb(0, 0, 0); padding-left: 5px">Im a family man and stuff and things and stuff and things and stuff and things and stuff and things and stuff and things and stuff and things and stuff and things.</h4><br>
+      <p style="color: rgb(0, 0, 0); padding-left: 5px">My Mission is to Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p style="color: rgb(0, 0, 0); padding-left: 5px">My Vision is to Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <br><button class="btn btn-default btn-lg" style="background-color: #303030; color: white; border: 2px solid #000;" href="#contact">Get in Touch</button>
+    </div>
+  </div>
+</div>
+<!-- #endregion -->
+
+<!-- #region Portfolio Section -->
+<div class="container-fluid bg-grey" id="portfolio">
+  <div class="row">
+    <div class="col-sm-12">
+      <h2>Portfolio</h2><br>
+      <h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
+      <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+</div>
+
+<!-- #region All Portfolio Carousels ----------------------------------------------------------->
+
+<!-- #region Portfolio Carousel Reviews-->
+<div id="portfolio-carousels" class="container-fluid text-center bg-grey">
+  <div class="col-sm-4">
+    <h2 id="testimony-header">What our customers say</h2>
+    <div id="myCarousel" class="carousel slide text-center" data-ride="carousel" data-interval="12000">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+      </ol>
+
+      <!-- #region Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="../../images/customers/jeff.png">
+          <div class="quote">
+            <h4>"Lorem ipsum Lorem sniffs bums"<br>
+            <span class="name">Jeffy McJeffyFace</span></h4>
+          </div>
+        </div>
+        <div class="item">
+          <img src="../../images/customers/phil.png">
+          <div class="quote">
+            <h4> "I dont know who you are, please get away from me, and leave my family alone."<br>
+            <span class="name">Philly McPhillyFace</span></h4>
+          </div>
+        </div>
+        <div class="item">
+          <img src="../../images/customers/rajesh.png">
+          <div class="quote">
+            <h4>"Dank yuu 4 colling AD&D, whow mai eye halp tudae?"<br>
+            <span class="name">Rajesh From Punjab</span></h4>
+          </div>
+        </div>
+        <div class="item">
+          <img src="../../images/customers/steve.png">
+          <div class="quote">
+            <h4>"uhhhhh, i dunno..."<br>
+            <span class="name">Stevey McSteveyFace</span></h4>
+          </div>
+        </div>
+        <div class="item">
+          <img src="../../images/agent/j-man.jpg">
+          <div class="quote">
+            <h4>"Wait a minute, how'd you get me in here?"<br>
+            <span class="name">Justin F, Cool Man Extraordinaire</span></h4>
+          </div>
+        </div>
+      </div>
+      <!-- #endregion -->
+
+      <!-- #region Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      <!-- #endregion-->
+    </div>
+  </div>
+<!-- #endregion -->
+
+
+<!-- #region Portfolio stats carousel -->
+  <div class="col-sm-4">
+    <h2 id="testimony-header">Some stats</h2>
+    <div id="myCarousel2" class="carousel slide text-center" data-ride="carousel" data-interval="12000">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel2" data-slide-to="1"></li>
+        <li data-target="#myCarousel2" data-slide-to="2"></li>
+      </ol>
+
+      <!-- #region Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
+        </div>
+        <div class="item">
+          <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
+        </div>
+        <div class="item">
+          <h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
+        </div>
+      </div>
+      <!-- #endregion -->
+
+      <!-- #region Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      <!-- #endregion-->
+    </div>
+  </div>
+<!-- endregion -->
+
+<!-- #region Portfolio Sold Locations Carousel -->
+  <div class="col-sm-4">
+    <h2 id="testimony-header">Sold locations</h2>
+    <div id="myCarousel3" class="carousel slide text-center" data-ride="carousel" data-interval="12000">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel3" data-slide-to="1"></li>
+        <li data-target="#myCarousel3" data-slide-to="2"></li>
+        <li data-target="#myCarousel3" data-slide-to="3"></li>
+        <li data-target="#myCarousel3" data-slide-to="4"></li>
+        <li data-target="#myCarousel3" data-slide-to="5"></li>
+      </ol>
+
+      <!-- #region Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="../../images/homes/hosue1.png">
+          <h4>4 Bedroom, 3 Bath House with 2200 Sq Ft in a safe gated sommunity, seated on 3/4 Acres. Perfect for the family. <br><span>$123,456</span></h4>
+        </div>
+        <div class="item">
+          <img src="../../images/homes/hosue2.jpg">
+          <h4>4 Bedroom, 3 Bath House with 2200 Sq Ft in a safe gated sommunity, seated on 3/4 Acres. Perfect for the family. <br><span>$123,456</span></h4>
+        </div>
+        <div class="item">
+          <img src="../../images/homes/house3.jpg">
+          <h4>4 Bedroom, 3 Bath House with 2200 Sq Ft in a safe gated sommunity, seated on 3/4 Acres. Perfect for the family. <br><span>$123,456</span></h4>
+        </div>
+        <div class="item">
+          <img src="../../images/homes/house4.jpg">
+          <h4>4 Bedroom, 3 Bath House with 2200 Sq Ft in a safe gated sommunity, seated on 3/4 Acres. Perfect for the family. <br><span>$123,456</span></h4>
+        </div>
+        <div class="item">
+          <img src="../../images/homes/house5.jpg">
+          <h4>4 Bedroom, 3 Bath House with 2200 Sq Ft in a safe gated sommunity, seated on 3/4 Acres. Perfect for the family. <br><span>$123,456</span></h4>
+        </div>
+        <div class="item">
+          <img src="../../images/homes/house6.jpg">
+          <h4>I cant belive someone actually bought this... This is in Orlando<br><span>$587,400</span></h4>
+        </div>
+
+      </div>
+      <!-- #endregion -->
+
+      <!-- #region Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel3" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel3" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      <!-- #endregion-->
+    </div>
+  </div>
+<!-- #endregion -->
+
+</div>
+
+
+<!-- #endregion-->
+
+<!-- #region Container (Listings Section) -->
+<div id="listings" class="container-fluid text-center">
+  <h2>Available Listings</h2>
+  <br>
+  <!-- </div> -->
+  <br><br>
+  <!-- <div class="row slideanim"> -->
+</div>
+<!-- #endregion -->
+
+<!-- #region Container (Contact Section) -->
+<div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact us and we'll get back to you within probably.</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +1 (918) 664-4444</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> nobodyOutPizzas@TheHut.com</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> 14209 N Santa Fe Ave, <br>Suite A,<br> Edmond, OK 73013</p>
+    </div>
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="subject" name="subject" placeholder="Subject" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="number" name="number" placeholder="Phone Number" type="text" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Message" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right"  id="send-contact-form" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- #endregion -->
+
+<!-- Image of location/map -->
+<div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=500&amp;height=500&amp;hl=en&amp;q=Block One Real Estate&amp;t=&amp;z=9&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://embed-googlemap.com">embed-googlemap.com</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:500px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:500px;}.gmap_iframe {height:500px!important;}</style></div>
+
+<!-- #region Footer-->
+<footer class="container-fluid text-center" id="footer-container">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Web Page Designed By <a href="https://www.linkedin.com/in/brayden-vernon" title="Visit Brayden Vernon">Brayden Vernon</a></p>
+</footer>
+<!-- #endregion -->
+
+<!-- #region Scripts -->
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+<!-- #endregion -->
+
+</body>
+</html>
